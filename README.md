@@ -1,21 +1,37 @@
-# Task Manager
+# Task Manager 
 
-Task Manager ek full-stack web application hai jo React + Vite frontend aur FastAPI + SQLAlchemy + MySQL backend ke saath build ki gayi hai. Isme tasks create, update, search, filter, paginate aur soft delete kiye ja sakte hain.
+Task Manager is a full-stack web application built with a React + Vite frontend and a FastAPI + SQLAlchemy + MySQL backend.
+The application allows users to create, update, search, filter, paginate, and soft delete tasks.
 
-## Tech Stack
+## Assignment Scope
 
-- Frontend: React 18, Vite, Axios, Tailwind CSS
-- Backend: FastAPI, SQLAlchemy, Pydantic
-- Database: MySQL
+Is assignment ka goal ek clean aur usable task management system banana tha jisme frontend aur backend dono properly integrated hon.
 
-## Features
+Implemented scope:
 
-- Task create, read, update aur delete flow
+- Task create, read, update aur delete flow-
 - Soft delete using `deleted_at` timestamp
 - Search by title ya description
 - Status filter: `pending` / `completed`
 - Pagination on task listing
 - Dark mode with `localStorage` persistence
+- Structured validation and API error responses
+
+
+## Tech Stack
+
+- Frontend: React-Vite, Axios, Tailwind CSS
+- Backend: FastAPI, SQLAlchemy, Pydantic
+- Database: MySQL
+
+## Features
+
+- Create, read, update, and delete tasks
+- Soft delete using a deleted_at timestamp
+- Search tasks by title or description
+- Status filtering: pending / completed
+- Pagination on task listing
+- Dark mode with localStorage persistence
 - Structured validation and API error responses
 
 ## Project Structure
@@ -57,9 +73,9 @@ README.md
 
 ## Backend Setup
 
-1. `backend` folder me jao.
-2. Virtual environment banao aur activate karo.
-3. Dependencies install karo:
+1. Navigate to the `backend` folder.
+2. Create and activate a virtual environment.
+3. DInstall dependencies:
 
 ```bash
 pip install -r requirements.txt
